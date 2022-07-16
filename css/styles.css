@@ -1,0 +1,267 @@
+/* FUNCIONOOOO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.Centered__text {
+  display: flex;
+  justify-content: space-around;
+  grid-area: texto; }
+
+.navmain {
+  display: flex;
+  justify-content: center; }
+
+.navmain ul {
+  list-style-type: none;
+  text-align: center; }
+
+.navmain a {
+  text-transform: uppercase; }
+
+.navmain li {
+  display: inline-block;
+  padding: 12px; }
+
+.header__enlace {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  justify-content: end; }
+
+.contenedor__flex {
+  display: flex;
+  align-items: flex-start; }
+
+.contenido {
+  color: black;
+  height: 1.6;
+  width: 50%; }
+
+.intro {
+  padding-left: 3rem;
+  padding-right: 7rem; }
+
+.contenido__img {
+  display: flex;
+  padding-bottom: 1rem;
+  justify-content: center; }
+
+.contenido__titulo {
+  padding-top: 6rem;
+  padding-left: 6rem;
+  color: black;
+  font-size: 38px; }
+
+.buscador {
+  grid-area: Buscador;
+  display: flex;
+  padding-left: 4rem;
+  padding-top: 1rem; }
+
+.body__aside__2 {
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center; }
+
+.contenido__button {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+  padding-bottom: 3rem; }
+
+.boton__descarga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+  width: 150px;
+  height: 30px; }
+
+.texto__descarga {
+  display: flex;
+  text-align: center;
+  flex-direction: column; }
+
+.title {
+  grid-area: title;
+  padding-left: 3rem; }
+
+.body__form {
+  display: flex;
+  padding-left: 12rem; }
+
+.body__form__2 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.form__item {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  align-items: stretch; }
+
+.form__item__2 {
+  display: flex;
+  flex-direction: column; }
+
+.form__checkbox {
+  display: flex;
+  padding-bottom: 2rem; }
+
+.form__check {
+  display: flex; }
+
+.form__button {
+  display: inline-block;
+  background-color: aquamarine;
+  width: 150px;
+  height: 30px; }
+
+.Title__text {
+  text-align: center; }
+
+.body__photos {
+  display: flex; }
+
+.form__sex {
+  float: left;
+  clear: none; }
+
+.faq {
+  display: flex; }
+
+.faq__2 {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem; }
+
+.footer {
+  grid-area: Footer;
+  background-color: coral;
+  padding: 2rem; }
+
+.footer__flex {
+  display: flex;
+  justify-content: space-evenly; }
+
+.footer__menu {
+  list-style: none;
+  text-align: center; }
+
+.footer__menu a {
+  color: black;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 0.9rem; }
+
+.footer__titulo {
+  color: black;
+  text-align: center;
+  padding-left: 1rem; }
+
+.footer__creditos {
+  font-size: 1rem;
+  color: black;
+  text-align: center; }
+
+.enlace {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: start; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 2px 4px;
+  grid-template-areas: "introduccion introduccion" "elbuscador elvideo" "fotospsicologos fotospsicologos" "ladescarga ladescarga" "elfooter elfooter"; }
+
+.introduccion {
+  grid-area: introduccion;
+  padding-top: 5rem;
+  padding-bottom: 5rem; }
+
+.elbuscador {
+  grid-area: elbuscador;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 5rem; }
+
+.elvideo {
+  grid-area: elvideo;
+  padding: 5rem; }
+
+.fotospsicologos {
+  grid-area: fotospsicologos;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.ladescarga {
+  grid-area: ladescarga;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8rem; }
+
+.ladescarga2 {
+  grid-area: ladescarga;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 9rem;
+  padding-bottom: 8rem; }
+
+.elfooter {
+  grid-area: elfooter; }
+
+.elbuscador__titulo {
+  display: flex;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center; }
+
+.elbuscador__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.fotopsicologos__img {
+  display: flex;
+  justify-items: center; }
+
+.container__2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  gap: 2px 4px;
+  grid-template-areas: "title title" "form2 ladescarga" "fotospsicologos fotospsicologos" "elfooter elfooter"; }
+
+.form2 {
+  grid-area: form2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center; }
+
+@media (max-width: 576px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas: "introduccion" "elvideo" "elbuscador" "fotospsicologos" "ladescarga" "elfooter"; }
+  .elvideo {
+    display: flex;
+    justify-content: center; } }
