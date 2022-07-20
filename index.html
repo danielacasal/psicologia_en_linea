@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Psicologia Online</title>
@@ -11,94 +11,131 @@
 <link rel="stylesheet" href="./CSS/styles.css"/>
 </head>
 <body>
-    <header class="header" id="arriba">
-        <div class ="logo">
-            <a href="./index.html"><img src="./Assets/Media/LOGO_PSICOLOGUEARTE1.png"width=70px height=60px alt="Logo"</a>
-        </div>
-        <div class = "navmain" id="navMain>"
-            <nav>
-                <ul>
-                    <li><a href="./Views/Unete como psicologo.html">Unete como Psicologo</a></li>
-                    <li><a href="./Views/Conseguir psicologo.html">Conseguir Psicologo</a></li>
-                    <li><a href="#">Precios</a></li>
-                    <li><a href="./Views/preguntas frecuentes.html">Preguntas frecuentes</a></li>
-                    <li><a href="./Views/contacto.html">Contacto</a></li>
-                    <li><a href="#">Iniciar Sesion</a></li>
-                    <li><a href="#">Buscar</a></li>
+    <header>
+        <nav class="navbar navbar-expand-lg navb__color">
+              <a class="navbar-brand" href="./index.html"><img class="img-fluid" src="./Assets/Media/LOGO_PSICOLOGUEARTE1.png" alt="PSicologia en Linea" width="80" height="50"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Views/contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Views/Unete como psicologo.html">Trabaja con nosotros</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./Views/preguntas frecuentes.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mas
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="./Views/preguntas frecuentes.html">Preguntas frecuentes</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
                 </ul>
-            </nav>
-        </div>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+        </nav>
     </header>
-    <!-- Container -->
-    <section class="container-fluid"></section>
-    <div class="container">
-        <div class = "introduccion">
-            <p class="intro"> Porque el tiempo y la distancia no tienen que ser obstáculos en un proceso de cambio.
-                Somos psicólogos matriculados formados en distintos modos de abordaje terapéutico para así conectar las necesidades de nuestros pacientes con los terapeutas más indicados según el tipo de cambio deseado.
-                <br>
-                Nuestro enfoque terapéutico es Integrativo, en el marco de la Terapia Breve Focalizada con herramientas de Terapia Cognitivo Conductual, Programación Neurolingüística (PNL), Psicoterapia Sistémica Estructuralista, Psicoterapia Cognitiva Posracionalista y Teoría del Apego.
-                <br>
-                Los psicólogos de Mejor Hablemos somos profesionales matriculados, estamos preparados para escuchar, evaluar y favorecer los procesos de cambio.
-                En Mejor Hablemos los psicólogos trabajamos para fomentar los potenciales de nuestros pacientes e incrementar las capacidades menos desarrolladas.
-                La palabra es la mejor herramienta para conectar con los demás seres humanos y ser artífices de transformarnos en nuestra mejor versión.
-                Hablando podemos identificar las dificultades que complican el camino hacia el desarrollo pleno.
-                Entendemos que las personas tienen metas y sueños que desean lograr, aunque a veces es difícil identificar los patrones que interfieren para poder alcanzarlos.
-                Sabemos que muchas personas quieren generar cambios en sus vidas, y no encuentran los recursos profesionales que se acomoden a sus necesidades y disponibilidad.
-            </p>
-        </div>
-        <div class = "elbuscador">
-            <h1 class="elbuscador__titulo">Consigue un psicologo</h1>
-            <div class="elbuscador__input">
-                <label for="buscador">Como podemos ayudarte?</label>
-                    <input type="text" id="buscador" name="buscador">
-            </div>
-        </div>
-        <div class = "elvideo">
-            <a href="https://www.youtube.com/watch?v=jQLx6-gSp2w">
-                <img src="./Assets/Media/psic_online.jpg" alt="Psicologia en linea" width=450 height=300 />
-            </a>
-        </div>
-        <div class = "fotospsicologos">
-                <h2 class="fotopsicologos__titulo">Conoce a nuestros psicologos</h2>
-                <img class="fotopsicologos__img" src="./Assets/Media/psicologos_fotos.jpg" alt="Logo PSicologia en Linea" width="800" height="320">
-        </div>
-        <div class = "ladescarga">
-            <img src="./Assets/Media/LOGO_PSICOLOGUEARTE1.png" alt="PSicologia en Linea" width="100" height="60">
-            <h2> No estas seguro? </h2>
-            <h4> Descarga nuestro quiz</h4>
-                <a href="https://www.psicoactiva.com/test/diagnosticos/test-para-saber-si-necesito-ir-al-psicologo/" 
-                    target="_parent"><button class="boton__descarga">Descargar</button></a>
-        </div>
-        <div class = "elfooter">
-            <div class="footer__flex">
-                <div>
-                    <h4 class="footer__titulo">Psicologos</h4>
-                    <ul class="footer__menu">
-                        <li><a href="./Views/Unete como psicologo.html">Unete como Psicologo</a></li>
-                        <li><a href="./Views/Conseguir psicologo.html">Conseguir Psicologo</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="footer__titulo">Preguntanos</h4>
-                    <ul class="footer__menu">
-                        <li><a href="#">Precios</a></li>
-                        <li><a href="./Views/preguntas frecuentes.html">Preguntas frecuentes</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4 class="footer__titulo">Haz mas</h4>
-                    <ul class="footer__menu">
-                        <li><a href="./Views/contacto.html">Contacto</a></li>
-                        <li><a href="#">Iniciar Sesion</a></li>
-                        <li><a href="#">Buscar</a></li>
-                    </ul>
-                </div>
-            </div>
-            <p> <a href="#arriba" class="enlace"> Ir arriba</a></p>
-            <div class="footer__creditos">Desarrollado por Daniela Casal</div>
-        </div>
+    <section class="container-fluid">
+    <main>
+        <div style="background-color: peru; padding: 250px;">
+<form>
+  <div class="row mb-3">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Palabras claves</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputPassword3">
     </div>
-</section>
+  </div>
+  <div class="row mb-3">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="col-sm-8 form-control" id="inputEmail3">
+    </div>
+  </div>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Preferencias</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+        <label class="form-check-label" for="gridRadios1">
+          Hombre
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+        <label class="form-check-label" for="gridRadios2">
+          Mujer
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+        <label class="form-check-label" for="gridRadios3">
+          Indiferente
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <div class="row mb-3">
+    <div class="col-sm-10 offset-sm-2">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Acepto que me contacten
+        </label>
+      </div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" style="background-color:black;">Buscar</button>
+</form>
+</div>
+            <div class="row" style="padding-top:2rem; padding-bottom:2rem;">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="./Assets/Media/psicologo_enlinea.jpg" class="img-fluid" alt="psicologia en linea">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="./Assets/Media/psicologo_enlinea2.jpg" class="img-fluid" alt="psicologia en linea">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="./Assets/Media/psicologo_enlinea3.jpg" class="img-fluid" alt="psicologia en linea">
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <img src="./Assets/Media/psicologo_enlinea4.jpg" class="img-fluid" alt="psicologia en linea">
+                </div>
+            </div>
+            <div class="row" style="background-color:peru; justify-content: center; align-content: center;">
+                <div class="col-lg-8 col-md-8 col-sm-12" style="padding-top:9rem; text-align: center;">
+                    <h2> El tiempo y la distancia ya no tienen que ser obstáculos, nuestros psicologos estan para ayudarte a 
+                        iniciar tu proceso de cambio y mantenerte en el tiempo.
+                    </h2>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 bquiz" style="padding-bottom: 2rem;">
+                        <img src="./Assets/Media/psicologia_en_linea_logo_black.png" class="img-fluid" alt="PSicologia en Linea" width="150" height="90">
+                        <h2> No estas seguro? </h2>
+                        <h4> Descarga nuestro quiz</h4>
+                            <a href="https://www.psicoactiva.com/test/diagnosticos/test-para-saber-si-necesito-ir-al-psicologo/" 
+                                target="_parent"><button class="boton__descarga">Descargar</button></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer"> 
+                <ul class="footer__menu">
+                    <li><a href="./Unete como psicologo.html">Unete como Psicologo</a></li>
+                    <li><a href="./preguntas frecuentes.html">Preguntas frecuentes</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+        <div class="footer__creditos">Desarrollado por Daniela Casal</div>
+    </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
