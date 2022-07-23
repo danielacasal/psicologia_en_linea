@@ -91,16 +91,6 @@
     padding-bottom: 3rem;
 }
 
-.boton__descarga {
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: aquamarine;
-    width:150px;
-    height: 30px;
-} 
-
 .texto__descarga {
     display: flex;
 text-align: center;
@@ -346,4 +336,43 @@ text-align: center;
 
 
 /* bootstrap */
+.bg {
+    background-color: peru; 
+    padding: 140px;
+}
+
+.bquiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton__descarga {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    width:150px;
+    height: 30px;
+} 
+
+.confirmacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ol:hover {
+    background-color: white;
+}
+
+.form:hover {
+    background-color:#293462;
+    color: white;
+}
 
